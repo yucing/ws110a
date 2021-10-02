@@ -20,19 +20,23 @@ app.use((ctx) => {
     <html>
     <style>
     table{
-        width: 500px;
-        border-collapse:collapse;
-        border:1px solid black;
+        width:500px;
+        border-collapse: collapse;
+        border: 1px solid rgb(255, 255, 255);
         padding: 10px;
     }
     th{
-        text-align:left;
-        background-color:black;
+        text-align:center;
+        background-color:rgb(88, 42, 214);
+        border: 1px solid white;
         color:white;
         padding:10px;
     }
     td{
-        border:1px solid black;
+        text-align: center;
+        border:1px solid rgb(255, 255, 255);
+        background-color:rgb(250, 223, 103);
+        color:rgb(62, 15, 139);
         padding:10px
     }
     </style>
